@@ -1,0 +1,100 @@
+* {
+    font-family: 'Noto Sans Lao', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background: #333;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 1rem;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1680125533385-eb2bb7464c48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+}
+
+.header-info {
+    width: 650px;
+    height: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.header-info a {
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-inline-end: auto;
+    width: 100px;
+
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.teams-items {
+    padding: 2rem;
+    background: #AD5CEC;
+    color: #fff;
+    text-align: center;
+}
+
+.teams-items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px white;
+}
+
+.teams-items a {
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 0.5rem;
+}
